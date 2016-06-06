@@ -10,3 +10,10 @@ eTags – If you are building something that needs to scale, you will likely nee
 Command to add a new json object into the database
 --------------------------------------------------
 curl -H "Content-Type: application/json" -d '{"name":"New Todo"}' http://localhost:8080/todos
+
+git commands
+------------
+git status     
+git add -A     // add all files
+git commit -m "My check-in message goes here"
+git push origin master // push the change to master
